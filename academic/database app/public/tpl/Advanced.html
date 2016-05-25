@@ -1,0 +1,49 @@
+<div class="basic-page">
+    <div id="createQueryForm" class="basic-box form-horizontal">
+        <div class="form-group">
+            <label for="queryInput" class="col-xs-12 col-sm-3 col-lg-2 input-group-label">Query</label>
+            <input type="text" class="col-xs-12 col-sm-9 col-lg-10 input-group-item" id="queryInput"/>
+        </div>
+
+        <div class="col-xs-6">
+            <div class="form-horizontal">
+    	        <button type="button" class="btn btn-default input-group-button" id="createTablesButton">Create Tables</button>
+                <button type="button" class="btn btn-default input-group-button" id="deleteTablesButton">Delete Tables</button>
+            </div>
+            <div class="form-horizontal">
+                <button type="button" class="btn btn-default input-group-button" id="generateDataButton">Generate Data</button>
+                <button type="button" class="btn btn-default input-group-button" id="deleteDataButton">Delete Data</button>
+            </div>
+            <div class="form-horizontal">
+                <button type="button" class="btn btn-default input-group-button" id="deleteUsersButton">Delete All Users</button>
+                <button type="button" class="btn btn-default input-group-button" id="deleteBotsButton">Delete All Bots</button>
+                <button type="button" class="btn btn-default input-group-button" id="deleteRentalsButton">Delete All Rentals</button>
+            </div>
+        </div>
+        <div class="col-xs-6">
+            <div class="form-horizontal">
+                <button type="button" class="btn btn-default input-group-button" id="viewUsersButton">View All Users</button>
+                <button type="button" class="btn btn-default input-group-button" id="viewBotsButton">View All Bots</button>
+                <button type="button" class="btn btn-default input-group-button" id="viewRentalsButton">View All Rentals</button>
+            </div>
+            <div class="form-horizontal">
+                <button type="button" class="btn btn-default input-group-button" id="numUsersButton">Count Users</button>
+                <button type="button" class="btn btn-default input-group-button" id="numBotsButton">Count Bots</button>
+                <button type="button" class="btn btn-default input-group-button" id="numRentalsButton">Count Rentals</button>
+                <button type="button" class="btn btn-default input-group-button" id="numAllButton">Count All</button>
+            </div>
+            <div class="form-horizontal">
+                <button type="button" class="btn btn-default input-group-button" id="countUserRentalsButton">Count User Rentals/Nodes</button>
+                <button type="button" class="btn btn-default input-group-button" id="countJobsButton">Count Job Rentals/Nodes</button>
+            </div>
+        </div>
+        <div class="col-xs-12"><hr></div>
+        <div class="col-xs-12">
+            <div class="form-horizontal">
+                <button type="button" class="btn btn-default input-group-button" id="submitQueryButton">Submit</button>
+                <button type="button" class="btn btn-default input-group-button" id="clearQueryButton">Clear</button>
+            </div>
+        </div>
+    </div>
+	<div class="col-xs-12" id="queryTableContent"></div>
+</div>

@@ -1,0 +1,11 @@
+num_animations=2
+texture_file=assets/textures/cowidle.png
+num_frames=10
+num_orientations=8
+frame_width=164
+frame_height=155.875
+texture_file=assets/textures/cowwalk.png
+num_frames=8
+num_orientations=8
+frame_width=157
+frame_height=150.875

@@ -1,0 +1,86 @@
+<div class="basic-page">
+    <div class="col-xs-6">
+        <div id="cmsGroup" class="btn-group btn-group-justified" role="group">
+            <div id="createFormButton" class="btn-group" role="group">
+                <a href="#rentals/create">
+                    <button type="button" class="btn btn-default">Create</button>
+                </a>
+            </div>
+            <div id="searchFormButton" class="btn-group" role="group">
+                <a href="#rentals/search">
+                    <button type="button" class="btn btn-default">Search</button>
+                </a>
+            </div>
+        </div>
+        <div id="createRentalGroup" class="basic-box form-horizontal">
+            <div class="form-group">
+                <label for="create-owner" class="col-xs-12 col-sm-3 col-lg-2 input-group-label">User ID</label>
+                <input type="text" class="col-xs-12 col-sm-9 col-lg-10 input-group-item" id="create-owner" maxlength="32"/>
+            </div>
+            <div class="form-group">
+                <label for="create-nodes" class="col-xs-12 col-sm-3 col-lg-2 input-group-label">Nodes</label>
+                <input type="number" class="col-xs-12 col-sm-9 col-lg-10 input-group-item" id="create-nodes" placeholder="0" maxlength="9" min="0" max="999999999"/>
+            </div>
+            <div class="form-group">
+                <label for="create-job" class="col-xs-12 col-sm-3 col-lg-2 input-group-label">Job</label>
+                <input type="text" class="col-xs-12 col-sm-9 col-lg-10 input-group-item" id="create-job" placeholder="idle" maxlength="16"/>
+            </div>
+            <div class="form-group">
+                <label for="create-expiration" class="col-xs-12 col-sm-3 col-lg-2 input-group-label">Expiration</label>
+                <input type="text" class="col-xs-12 col-sm-9 col-lg-10 input-group-item" id="create-expiration" placeholder="2016-03-30" maxlength="10"/>
+            </div>
+            <button type="button" class="btn btn-default input-group-button" id="createRentalButton">Create Rental</button>
+        </div>
+        <div id="modifyRentalGroup" class="basic-box form-horizontal">
+            <div class="form-group">
+                <label for="modify-rid" class="col-xs-12 col-sm-3 col-lg-2 input-group-label">Rental ID</label>
+                <input type="text" class="col-xs-12 col-sm-9 col-lg-10 input-group-item" id="modify-rid" readonly/>
+            </div>
+            <div class="form-group">
+                <label for="modify-owner" class="col-xs-12 col-sm-3 col-lg-2 input-group-label">User ID</label>
+                <input type="text" class="col-xs-12 col-sm-9 col-lg-10 input-group-item" id="modify-owner" maxlength="32"/>
+            </div>
+            <div class="form-group">
+                <label for="modify-nodes" class="col-xs-12 col-sm-3 col-lg-2 input-group-label">Nodes</label>
+                <input type="number" class="col-xs-12 col-sm-9 col-lg-10 input-group-item" id="modify-nodes" placeholder="0" maxlength="9" min="0" max="999999999"/>
+            </div>
+            <div class="form-group">
+                <label for="modify-job" class="col-xs-12 col-sm-3 col-lg-2 input-group-label">Job</label>
+                <input type="text" class="col-xs-12 col-sm-9 col-lg-10 input-group-item" id="modify-job" placeholder="idle" maxlength="16"/>
+            </div>
+            <div class="form-group">
+                <label for="modify-expiration" class="col-xs-12 col-sm-3 col-lg-2 input-group-label">Expiration</label>
+                <input type="text" class="col-xs-12 col-sm-9 col-lg-10 input-group-item" id="modify-expiration" placeholder="2016-03-30" maxlength="10"/>
+            </div>
+            <button type="button" class="btn btn-default input-group-button" id="viewUserButton">View User</button>
+            <button type="button" class="btn btn-default input-group-button" id="saveRentalButton">Save Rental</button>
+            <button type="button" class="btn btn-default input-group-button" id="deleteRentalButton">Delete Rental</button>
+        </div>
+        <div id="searchRentalGroup" class="basic-box form-horizontal">
+            <div class="form-group">
+                <label for="search-rid" class="col-xs-12 col-sm-3 col-lg-2 input-group-label">Rental ID</label>
+                <input type="text" class="col-xs-12 col-sm-9 col-lg-10 input-group-item" id="search-rid" maxlength="32"/>
+            </div>
+            <div class="form-group">
+                <label for="search-uid" class="col-xs-12 col-sm-3 col-lg-2 input-group-label">User ID</label>
+                <input type="text" class="col-xs-12 col-sm-9 col-lg-10 input-group-item" id="search-uid" maxlength="32"/>
+            </div>
+            <div class="form-group">
+                <label for="search-nodes" class="col-xs-12 col-sm-3 col-lg-2 input-group-label">Nodes</label>
+                <input type="number" class="col-xs-12 col-sm-9 col-lg-10 input-group-item" id="search-nodes" placeholder="0" maxlength="9" min="0" max="999999999"/>
+            </div>
+            <div class="form-group">
+                <label for="search-job" class="col-xs-12 col-sm-3 col-lg-2 input-group-label">Job Type</label>
+                <input type="text" class="col-xs-12 col-sm-9 col-lg-10 input-group-item" id="search-job" placeholder="idle" maxlength="16"/>
+            </div>
+            <div class="form-group">
+                <label for="search-expiration" class="col-xs-12 col-sm-3 col-lg-2 input-group-label">Expiration</label>
+                <input type="text" class="col-xs-12 col-sm-9 col-lg-10 input-group-item" id="search-expiration" placeholder="2016-03-30" maxlength="10"/>
+            </div>
+            <button type="button" class="btn btn-default input-group-button" id="searchRentalButton">Search</button>
+        </div>
+    </div>
+    <div class="col-xs-6">
+    	<div id="rentalList"></div>
+    </div>
+</div>
