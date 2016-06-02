@@ -1,4 +1,3 @@
-
 ## Personal projects
 I've categorized my personal projects by language/platform/purpose (whichever I decided was a more prominent feature of the project).  
 Arduino contains the code files for any completed projects involving me tinkering with an [arduino microcontroller](https://www.arduino.cc/).  
