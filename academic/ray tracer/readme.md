@@ -7,4 +7,4 @@ Depth of field:
 Refraction:  
 ![alt tag](https://github.com/ZachariahGlover/projects/blob/master/academic/ray%20tracer/demo/ref.jpg)  
 Something else:  
-![alt tag](https://github.com/ZachariahGlover/projects/blob/master/academic/ray%20tracer/demo/ref.jpg)  
+![alt tag](https://github.com/ZachariahGlover/projects/blob/master/academic/ray%20tracer/demo/fancy.jpg)  
