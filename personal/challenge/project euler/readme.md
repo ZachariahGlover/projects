@@ -1,0 +1,1 @@
+Contains programming challenges from [Project Euler](https://projecteuler.net/), files are named with challenge number leading in their title.
