@@ -1,1 +1,1 @@
-These consist of coursework for a variety of courses that I completed at University of Toronto.
+This folder consists of various projects that I completed for courses at the University of Toronto.
