@@ -1,0 +1,33 @@
+<div class="center-column col-xs-12 col-sm-8">
+	<div style="text-align: center;">
+		<canvas id="canvas"></canvas>
+		<button ng-click="chooseFile()" id='fileButton' class="action-button">Upload Image</button>
+		<input id="fileChooser" ng-model="photo" onchange="angular.element(this).scope().selectImage(this)" type="file" accept="image/*" style="display:none;"/>
+	</div>
+</div>
+<div class="col-xs-12 col-sm-4">
+	<div class="form-horizontal">
+		<div class="form-group attribute-field">
+		    <label for="scale" class="col-xs-12 col-sm-4 attribute-label" id="scaleLabel">Scale</label>
+		    <input type="text" class="col-xs-12 col-sm-8 attribute-input" id="scale" value="1.0"/>
+		</div>
+		<div class="form-group attribute-field">
+		    <label for="rotate" class="col-xs-12 col-sm-4 attribute-label" id="rotateLabel">Rotate</label>
+		    <input type="text" class="col-xs-12 col-sm-8 attribute-input" id="rotate" value="0.0"/>
+		</div>
+		<div class="form-group attribute-field">
+		    <label for="translate" class="col-xs-12 col-sm-4 attribute-label" id="translateLabel">Translate X</label>
+		    <input type="text" class="col-xs-12 col-sm-8 attribute-input" id="translatex" value="0.0"/>
+		</div>
+		<div class="form-group attribute-field">
+		    <label for="translate" class="col-xs-12 col-sm-4 attribute-label" id="translateLabel">Translate Y</label>
+		    <input type="text" class="col-xs-12 col-sm-8 attribute-input" id="translatey" value="0.0"/>
+		</div>
+		<div class="form-group attribute-field">
+		    <label for="opacity" class="col-xs-12 col-sm-4 attribute-label" id="opacityLabel">Opacity</label>
+		    <input type="text" class="col-xs-12 col-sm-8 attribute-input" id="opacity" value="1.0"/>
+		</div>
+	</div>
+	<button ng-click="applyActions()" class="action-button">Apply</button>
+	<button ng-click="resetActions()"" class="action-button">Reset</button>
+</div>

@@ -1,0 +1,76 @@
+p, h1 {
+	font-family: "Montserrat";
+}
+
+.navbar {
+	font-family: "Montserrat";
+}
+
+.action-button {
+	background-color: rgba(200, 200, 200, 0.70);
+	display: block;
+   	margin: 4px auto;
+    height: 30px;
+    width: 145px;
+    border-radius: 1px;
+	white-space: normal;
+	font-family: "Montserrat";
+	font-size: 16px;
+	color: #303030;
+	-webkit-user-select: none;
+}
+
+.attribute-field {
+	background-color: rgba(200, 200, 200, 0.70);
+	width: 100%;
+	min-width: 190px;
+	border: 1px solid #000000;
+	margin: 4px auto;
+	font-family: "Montserrat";
+	font-size: 14px;
+}
+.attribute-label {
+	margin-top: 3px;
+	margin-bottom: 3px;
+	padding-left: 6px;
+	padding-right: 6px;
+	font-size: 14px;
+	color: #303030;
+	-webkit-user-select: none;
+}
+.attribute-input {
+	padding-left: 4px;
+	padding-right: 4px;
+	color: #000000;
+}
+
+.center-column {
+	text-align: center;
+}
+
+#weatherTable {
+	margin-right: auto;
+	margin-left: auto;
+	font-family: "Montserrat";
+	background-color: rgba(200, 200, 200, 0.70);
+}
+
+#leftColumn {
+	text-align: right;
+	border: 1px solid #000000;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+#rightColumn {
+	text-align: left;
+	padding-left: 4px;
+	padding-right: 4px;
+	border: 1px solid #000000;
+}
+
+#canvas {
+	width: 100%;
+	height: auto;
+	border: 1px solid #000000;
+}

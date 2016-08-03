@@ -1,0 +1,6 @@
+<button ng-click="weatherReq()" class="action-button">Fetch Data</button>
+<table id="weatherTable">
+	<tr id="tableRow" ng-repeat="(key, val) in data">
+		<td id="leftColumn">{{key}}</td><td id="rightColumn">{{val}}</td>
+	</tr>
+</table>
